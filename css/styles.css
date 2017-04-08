@@ -11,8 +11,8 @@ color: black;
   /*background-color: inherit;*/
 }
 img {
-  width: 100px;
-  height: 200px;
+  width: 50px;
+  height: 100px;
 }
 #pic {
   width: 100px;
@@ -20,10 +20,8 @@ img {
   border-style: solid;
   border-color: transparent;
   border-radius: 100%;
-  margin-top: 50px;
 }
 .text {
-  margin-top: 60px;
 }
 .home {
 /*background-image: url("http://cdn.pcwallart.com/images/beautiful-nature-beach-sunset-wallpaper-2.jpg");*/
@@ -59,21 +57,31 @@ background-color: #C70039;
  {
 border-style: solid;
 border-color: transparent;
-margin-top: 130px;
+border-radius: 100%;
+margin-top: 50px;
 padding-left: 130px;
-/*box-shadow: 0 0 20px #000000;*/
+box-shadow: 0 0 20px #000000;
 background-color: white;
+height: 400px;
+width: 400px;
 }
 .first-project {
-background-color:
-}.second-project {
-background-color:
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.second-project {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .third-project {
-background-color:
+  margin-left: 20px;
+  margin-right: 40px;
 }
+/*.images {
+  margin-top: 230px;
+}*/
 .contacts {
-  background-image: url("http://cdn.pcwallart.com/images/beautiful-nature-beach-sunset-wallpaper-2.jpg");
+  background-color: #C70039;
   height: 100%;
   width: 100%;
   margin-top: 0px;
