@@ -32,10 +32,21 @@ padding-right: 40px;
 border-radius: 10px;
 box-shadow: 0 0 10px #000000;
 }
+#projects {
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000000;
+  width: 99%;
+  height: 300px;
+  padding-top: 50px;
+  margin-left: 10px;
+}
 .first-project,
 .second-project,
 .third-project
  {
 border-style: solid;
+border-color: transparent;
 padding-left: 130px;
 }
