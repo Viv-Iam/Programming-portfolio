@@ -4,14 +4,31 @@
 }
 body {
   overflow-x: hidden;
+font-family: 'VT323', monospace;
+color: black;
 }
-
+.navbar {
+  /*background-color: inherit;*/
+}
 img {
   width: 100px;
   height: 200px;
 }
+#pic {
+  width: 100px;
+  height: 120px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 100%;
+  margin-top: 50px;
+}
+.text {
+  margin-top: 60px;
+}
 .home {
-
+/*background-image: url("http://cdn.pcwallart.com/images/beautiful-nature-beach-sunset-wallpaper-2.jpg");*/
+background-color: #C70039;
+height: 100%;
 }
 .tabs {
 
@@ -19,30 +36,22 @@ img {
 .about {
 margin-top: 80px;
 margin-bottom: 80px;
-width: 500px;
+width: 900px;
 height: 300px;
 /*margin-left: 500px;
 margin-right: 500px;*/
 border-style: solid;
 border-color: transparent;
-background-color: #800060;
-padding-top: 50px;
 padding-left: 50px;
 padding-right: 40px;
 border-radius: 10px;
-box-shadow: 0 0 10px #000000;
+box-shadow: 0 0 20px #000000;
+background-color: #C70039;
+
 }
-#projects {
-  border-style: solid;
-  border-color: transparent;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #000000;
-  width: 99%;
-  height: 300px;
-  padding-top: 50px;
-  margin-left: 10px;
-  margin-top: 80px;
-  margin-bottom: 80px;
+.portfolio {
+  height: 500px;
+  background-color: wite;
 }
 .first-project,
 .second-project,
@@ -50,5 +59,22 @@ box-shadow: 0 0 10px #000000;
  {
 border-style: solid;
 border-color: transparent;
+margin-top: 130px;
 padding-left: 130px;
+/*box-shadow: 0 0 20px #000000;*/
+background-color: white;
+}
+.first-project {
+background-color:
+}.second-project {
+background-color:
+}
+.third-project {
+background-color:
+}
+.contacts {
+  background-image: url("http://cdn.pcwallart.com/images/beautiful-nature-beach-sunset-wallpaper-2.jpg");
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
 }
