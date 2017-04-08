@@ -59,23 +59,25 @@ border-style: solid;
 border-color: transparent;
 border-radius: 100%;
 margin-top: 50px;
-padding-left: 130px;
 box-shadow: 0 0 20px #000000;
 background-color: white;
-height: 400px;
-width: 400px;
+height: 350px;
+width: 350px;
 }
 .first-project {
-  margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 100px;
+  margin-right: 30px;
+  background-color: #F15A29;
 }
 .second-project {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: orange;
 }
 .third-project {
-  margin-left: 20px;
-  margin-right: 40px;
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: skyblue;
 }
 /*.images {
   margin-top: 230px;
@@ -85,4 +87,22 @@ width: 400px;
   height: 100%;
   width: 100%;
   margin-top: 0px;
+}
+#logo1,
+#logo2,
+#logo3 {
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+#logo2 {
+  border-style: solid;
+  border color: transparent;
+  border-radius: 100%;
+}
+#logo3 {
+  border-style: solid;
+  border color: transparent;
+  border-radius: 100%;
 }
