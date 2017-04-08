@@ -24,11 +24,13 @@ height: 200px;
 /*margin-left: 500px;
 margin-right: 500px;*/
 border-style: solid;
+border-color: transparent;
 background-color: #800060;
 padding-top: 50px;
 padding-left: 50px;
 padding-right: 40px;
 border-radius: 10px;
+box-shadow: 0 0 10px #000000;
 }
 .first-project,
 .second-project,
