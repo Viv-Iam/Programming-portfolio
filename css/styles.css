@@ -4,6 +4,8 @@
 }
 body {
   overflow-x: hidden;
+  font-family: 'VT323', monospace;
+  color: black;
 }
 .navbar {
   /*background-color: inherit;*/
@@ -19,23 +21,21 @@ img {
   border-color: transparent;
   border-radius: 100%;
 }
-.text {
+/*.text {
 }
 .home {
-/*background-image: url("http://cdn.pcwallart.com/images/beautiful-nature-beach-sunset-wallpaper-2.jpg");*/
+background-image: url("http://cdn.pcwallart.com/images/beautiful-nature-beach-sunset-wallpaper-2.jpg");
 background-color: #C70039;
 height: 670px;
 }
 .tabs {
 
-}
+}*/
 .about {
-margin-top: 150px;
-margin-bottom: 80px;
+margin-top: 90px;
+margin-bottom: 0px;
 width: 900px;
 height: 300px;
-font-family: 'VT323', monospace;
-color: black;
 border-style: solid;
 border-color: transparent;
 padding-left: 50px;
@@ -46,8 +46,9 @@ background-color: #C70039;
 
 }
 .portfolio {
-  height: 700px;
+  height: 650px;
   background-color: white;
+  background-color: #C70039;
 }
 .first-project,
 .second-project,
@@ -56,37 +57,37 @@ background-color: #C70039;
 border-style: solid;
 border-color: transparent;
 border-radius: 10px;
-margin-top: 200px;
+margin-top: 30px;
+margin-left: 10px;
 box-shadow: 0 0 20px #000000;
 background-color: white;
-height: 350px;
-width: 350px;
+height: 175px;
+width: 175px;
+}
+.first-project:hover,
+.second-project:hover,
+.third-project:hover {
+  width: 350px;
 }
 .first-project {
-  margin-left: 100px;
-  margin-right: 30px;
   background-color: #F15A29;
 }
 .second-project {
-  margin-left: 30px;
-  margin-right: 30px;
   background-color: orange;
 }
 .third-project {
-  margin-left: 30px;
-  margin-right: 10px;
   background-color: skyblue;
 }
-.images {
+/*.images {
   margin-bottom: 50px;
-}
+}*/
 
 #logo1,
 #logo2,
 #logo3 {
-  width: 200px;
-  height: 200px;
-  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
   margin-left: 0px;
 }
 #logo2 {
@@ -101,9 +102,8 @@ width: 350px;
 }
 .contacts {
   background-color: #C70039;
-  height: 100%;
-  width: 100%;
-  margin-top: 0px;
+  height: 650px;
+
 }
 .ank,
 .pnd,
@@ -114,5 +114,6 @@ width: 350px;
 .pnd:hover,
 .qna:hover {
   color: black;
-  font-family: 'VT323', monospace;
+  text-align: center;
+  margin-top: 10px;
 }
