@@ -46,9 +46,10 @@ background-color: #C70039;
 
 }
 .portfolio {
-  height: 650px;
+  height: 700px;
   background-color: white;
   background-color: #C70039;
+  padding-top: 40px
 }
 .first-project,
 .second-project,
@@ -102,7 +103,8 @@ width: 175px;
 }
 .contacts {
   background-color: #C70039;
-  height: 650px;
+  height: 700px;
+  padding-top: 40px;
 
 }
 .ank,
@@ -116,4 +118,7 @@ width: 175px;
   color: black;
   text-align: center;
   margin-top: 10px;
+}
+.form-control {
+  margin-right: 20px;
 }
