@@ -4,15 +4,13 @@
 }
 body {
   overflow-x: hidden;
-font-family: 'VT323', monospace;
-color: black;
 }
 .navbar {
   /*background-color: inherit;*/
 }
 img {
-  width: 50px;
-  height: 100px;
+  width: 30px;
+  height: 80px;
 }
 #pic {
   width: 100px;
@@ -36,8 +34,8 @@ margin-top: 150px;
 margin-bottom: 80px;
 width: 900px;
 height: 300px;
-/*margin-left: 500px;
-margin-right: 500px;*/
+font-family: 'VT323', monospace;
+color: black;
 border-style: solid;
 border-color: transparent;
 padding-left: 50px;
@@ -48,8 +46,8 @@ background-color: #C70039;
 
 }
 .portfolio {
-  height: 600px;
-  background-color: wite;
+  height: 700px;
+  background-color: white;
 }
 .first-project,
 .second-project,
@@ -79,22 +77,17 @@ width: 350px;
   margin-right: 10px;
   background-color: skyblue;
 }
-/*.images {
-  margin-top: 230px;
-}*/
-.contacts {
-  background-color: #C70039;
-  height: 100%;
-  width: 100%;
-  margin-top: 0px;
+.images {
+  margin-bottom: 50px;
 }
+
 #logo1,
 #logo2,
 #logo3 {
-  width: 300px;
-  height: 300px;
-  margin-top: 20px;
-  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  /*margin-top: 20px;*/
+  margin-left: 60px;
 }
 #logo2 {
   border-style: solid;
@@ -105,4 +98,21 @@ width: 350px;
   border-style: solid;
   border color: transparent;
   border-radius: 100%;
+}
+.contacts {
+  background-color: #C70039;
+  height: 100%;
+  width: 100%;
+  margin-top: 0px;
+}
+.ank,
+.pnd,
+.qna {
+  color: transparent;
+}
+.ank:hover,
+.pnd:hover,
+.qna:hover {
+  color: black;
+  font-family: 'VT323', monospace;
 }
