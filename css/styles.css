@@ -1,26 +1,32 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 body {
-  overflow-x: hidden;
-  font-family: 'VT323', monospace;
-  color: black;
+    overflow-x: hidden;
+    font-family: 'VT323', monospace;
+    color: black;
 }
+
 .navbar {
-  /*background-color: inherit;*/
+    /*background-color: inherit;*/
 }
+
 img {
-  width: 30px;
-  height: 80px;
+    width: 30px;
+    height: 80px;
 }
+
 #pic {
-  width: 100px;
-  height: 120px;
-  border-style: solid;
-  border-color: transparent;
-  border-radius: 100%;
+    width: 100px;
+    height: 120px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 100%;
 }
+
+
 /*.text {
 }
 .home {
@@ -31,94 +37,101 @@ height: 670px;
 .tabs {
 
 }*/
-.about {
-margin-top: 90px;
-margin-bottom: 0px;
-width: 900px;
-height: 300px;
-border-style: solid;
-border-color: transparent;
-padding-left: 50px;
-padding-right: 40px;
-border-radius: 10px;
-box-shadow: 0 0 20px #000000;
-background-color: #C70039;
 
+.about {
+    margin-top: 90px;
+    margin-bottom: 0px;
+    width: 900px;
+    height: 300px;
+    border-style: solid;
+    border-color: transparent;
+    padding-left: 50px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000000;
+    background-color: #C70039;
 }
+
 .portfolio {
-  height: 700px;
-  background-color: white;
-  background-color: #C70039;
-  padding-top: 40px
+    height: 700px;
+    background-color: white;
+    background-color: #C70039;
+    padding-top: 40px;
+    border-right: 5px, solid;
 }
-.first-project,
-.second-project,
-.third-project
- {
-border-style: solid;
-border-color: transparent;
-border-radius: 10px;
-margin-top: 30px;
-margin-left: 10px;
-box-shadow: 0 0 20px #000000;
-background-color: white;
-height: 175px;
-width: 175px;
+
+.first-project, .second-project, .third-project {
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 0 0 20px #000000;
+    background-color: white;
+    height: 175px;
+    width: 175px;
 }
-.first-project:hover,
-.second-project:hover,
-.third-project:hover {
-  width: 350px;
+
+.first-project:hover, .second-project:hover, .third-project:hover {
+    width: 350px;
 }
+
 .first-project {
-  background-color: #F15A29;
+    background-color: #F15A29;
 }
+
 .second-project {
-  background-color: orange;
+    background-color: orange;
 }
+
 .third-project {
-  background-color: skyblue;
+    background-color: skyblue;
 }
+
+
 /*.images {
   margin-bottom: 50px;
 }*/
 
-#logo1,
-#logo2,
-#logo3 {
-  width: 150px;
-  height: 150px;
-  margin-top: 10px;
-  margin-left: 0px;
+#logo1, #logo2, #logo3 {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 0px;
 }
-#logo2 {
-  border-style: solid;
-  border color: transparent;
-  border-radius: 100%;
-}
-#logo3 {
-  border-style: solid;
-  border color: transparent;
-  border-radius: 100%;
-}
-.contacts {
-  background-color: #C70039;
-  height: 700px;
-  padding-top: 40px;
 
+#logo2 {
+    border-style: solid;
+    border color: transparent;
+    border-radius: 100%;
 }
-.ank,
-.pnd,
-.qna {
-  color: transparent;
+
+#logo3 {
+    border-style: solid;
+    border color: transparent;
+    border-radius: 100%;
 }
-.ank:hover,
-.pnd:hover,
-.qna:hover {
-  color: black;
-  text-align: center;
-  margin-top: 10px;
+
+.contacts {
+    background-color: #C70039;
+    height: 700px;
+    padding-top: 40px;
 }
-.form-control {
-  margin-right: 20px;
+
+.ank, .pnd, .qna {
+    color: transparent;
+}
+
+.ank:hover, .pnd:hover, .qna:hover {
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-group {
+    margin-right: 20px;
+}
+
+p.hidden {
+    display: none;
 }
