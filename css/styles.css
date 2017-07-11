@@ -11,15 +11,18 @@ body {
 
 .navbar {
     background-color: #00406E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px;
 }
 #myNavbar {
   margin-bottom:0px;
+  font-size: 25px;
+  color: white;
 }
-
-/*img {
-    width: 30px;
-    height: 80px;
-}*/
+.navbar-brand {
+  font-size: 25px;
+}
 
 #pic {
     width: 100px;
@@ -124,8 +127,20 @@ body {
 .pcheck,
 .ptrans {
   border-style: solid;
-  border-color:black;
+  border-color:transparent;
   font-size:25px;
+}
+.ptech {
+  margin-top: 80px;
+  text-align: center;
+}
+.pcheck {
+  margin-top: 80px;
+  text-align: center;
+}
+.ptrans {
+  margin-top: 100px;
+  text-align: center;
 }
 .techp {
   background-color:#00406E;
@@ -164,6 +179,7 @@ body {
 
 .contacts {
     color: white;
+    font-size: 20px;
     margin-top: 20px;
     height: 100%;
     width: 70%;
