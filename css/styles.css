@@ -63,11 +63,53 @@ height: 670px;
 }
 
 .portfolio {
-    height: 700px;
-    background-color: white;
+
+    /*height: 700px;
+
     background-color: #C70039;
     padding-top: 40px;
-    border-right: 5px, solid;
+    border-right: 5px, solid;*/
+
+}
+.tech2o {
+  background-image:url("../img/web1.jpg");
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  float: left;
+}
+.echeckin {
+  background-image:url("../img/web2.jpg");
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  float: right;
+
+}
+.trans {
+  background-image:url("../img/web3.jpg");
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  float: left;
+}
+.mobile {
+  margin-top: 50px;
+}
+.m1 {
+  background-image:url("../img/m1.jpg");
+  width: 33%;
+  height: 750px;
+}
+.m2 {
+  background-image:url("../img/m2.jpg");
+  width: 33%;
+  height: 750px;
+}
+.m3 {
+  background-image:url("../img/m3.jpg");
+  width: 33%;
+  height: 750px;
 }
 
 .first-project, .second-project, .third-project {
@@ -123,9 +165,7 @@ height: 670px;
 }
 
 .contacts {
-    background-color: #C70039;
-    height: 700px;
-    padding-top: 40px;
+    /*background-image:url("../img/image.jpg");*/
 }
 
 .ank, .pnd, .qna {
