@@ -6,7 +6,6 @@
 body {
     overflow-x: hidden;
     font-family: 'VT323', monospace;
-    color: black;
 }
 
 .navbar {
@@ -16,10 +15,10 @@ body {
   margin-bottom:0px;
 }
 
-img {
+/*img {
     width: 30px;
     height: 80px;
-}
+}*/
 
 #pic {
     width: 100px;
@@ -77,11 +76,13 @@ height: 670px;
   height: 400px;
   background-repeat: no-repeat;
   float: left;
+  margin-top:0px;
 }
 .echeckin {
   background-image:url("../img/web2.jpg");
   width: 600px;
   height: 400px;
+  margin-top:400px;
   background-repeat: no-repeat;
   float: right;
 
@@ -90,26 +91,34 @@ height: 670px;
   background-image:url("../img/web3.jpg");
   width: 600px;
   height: 400px;
+  margin-top:400px;
   background-repeat: no-repeat;
   float: left;
 }
 .mobile {
-  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .m1 {
-  background-image:url("../img/m1.jpg");
-  width: 33%;
-  height: 750px;
-}
-.m2 {
-  background-image:url("../img/m2.jpg");
-  width: 33%;
-  height: 750px;
+  background-image:url("../img/m.jpg");
+  width: 350px;
+  height: 590px;
+  background-repeat: no-repeat;
+  /*margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;*/
+  margin-left: 20px;
 }
 .m3 {
-  background-image:url("../img/m3.jpg");
-  width: 33%;
-  height: 750px;
+  background-image:url("../img/t.jpg");
+  width: 330px;
+  height: 590px;
+  background-repeat: no-repeat;
+  float: right;
+  margin-right: 10px;
 }
 
 .first-project, .second-project, .third-project {
@@ -127,23 +136,6 @@ height: 670px;
 .first-project:hover, .second-project:hover, .third-project:hover {
     width: 350px;
 }
-
-.first-project {
-    background-color: #F15A29;
-}
-
-.second-project {
-    background-color: orange;
-}
-
-.third-project {
-    background-color: skyblue;
-}
-
-
-/*.images {
-  margin-bottom: 50px;
-}*/
 
 #logo1, #logo2, #logo3 {
     width: 150px;
@@ -166,6 +158,10 @@ height: 670px;
 
 .contacts {
     /*background-image:url("../img/image.jpg");*/
+    margin-top: 1250px;
+    height: 100%;
+    width: 70%;
+    margin-left: 200px
 }
 
 .ank, .pnd, .qna {
@@ -176,10 +172,6 @@ height: 670px;
     color: black;
     text-align: center;
     margin-top: 10px;
-}
-
-.form-group {
-    margin-right: 20px;
 }
 
 p.hidden {
