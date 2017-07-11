@@ -3,10 +3,10 @@
 // });
 $(document).ready(function() {
 
-    $("button").click(function() {
+    $("submit").click(function() {
 
         $(".form-group").hide();
-        $("button").hide();
+        $("submit").hide();
         $("p").show();
         alert("Data succesfully submitted!");
     });
