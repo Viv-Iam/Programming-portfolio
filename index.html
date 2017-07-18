@@ -48,14 +48,14 @@
     <div class="mobile row">
       <h2 class="txt1"><strong>PORTFOLIO</strong></h2>
       <div class="col-lg-6 mb">
-        <div class="m1"> <img src="img/m.jpg" alt="MOBILECHECK-IN"> </div>
+        <!-- <div class="m1"> <img src="img/m.jpg" alt="MOBILECHECK-IN"> </div> -->
         <div class="m1txt">
           <p>MobileCheck-in is an Android application that allows users to clock in at the click of a button. It automatically logs the date and time the user checks-in. </p><a href="https://appetize.io/app/vw33m82nwbzbq4d528nh62vy50?device=nexus5&scale=75&orientation=portrait&osVersion=7.0" target="blank"> <button class="btn btn-default">VIEW</button></a>
         </div>
       </div>
 
         <div class="col-lg-6">
-          <div class="m3"> <img src="img/t.jpg" alt="TATU SAFETY"> </div>
+          <!-- <div class="m3"> <img src="img/t.jpg" alt="TATU SAFETY"> </div> -->
           <div class="m3txt">
             <p>Tatu Safety is an Android application that aims to ease travel via Public Transport. It also avails a platform for reporting malpractices.</p><a href="https://appetize.io/app/ekytpe6tqgn9nt69a8f93gh3ur?device=nexus5&scale=75&orientation=portrait&osVersion=7.0" target="blank"> <button class="btn btn-default">VIEW</button></a>
           </div>
@@ -63,46 +63,54 @@
 
     </div>
   <div class="portfolio">
-    <div class="row techp">
+    <div class="row">
+      <div class="tech2o col-lg-4">
       <h2 class="txt2"><strong>TECH₂0</strong></h2>
-        <div class="tech2o col-lg-6"></div>
-        <div class="ptech col-lg-6">
-          <p>TecH₂O is a web app that utilizes satellite and crowd-sourced data to avail realtime information on fluctuating water levels across the globe. The app was awarded <a href="https://2017.spaceappschallenge.org/challenges/planetary-blues/wheres-water/teams/tech20-1/project">Local Peoples' Choice Award </a>for the NASA SpaceApps Challenge 2017.</p>
+        <div class="ptech">
+          <p class="p1">TecH₂O is a web app that utilizes satellite and crowd-sourced data to avail realtime information on fluctuating water levels across the globe. The app was awarded <a href="https://2017.spaceappschallenge.org/challenges/planetary-blues/wheres-water/teams/tech20-1/project">Local Peoples' Choice Award </a>for the NASA SpaceApps Challenge 2017.</p>
         <a href="https://techh20o.github.io/techh20.io/" target="blank"> <button class="btn btn-default">VIEW</button></a></div>
-          </div>
+        </div>
 
-        <div class="row checkp">
+    <div class="echeckin col-lg-4">
           <h2 class="txt3"><strong>E-CHECKIN</strong></h2>
-        <div class="echeckin col-lg-6"></div>
-        <div class="pcheck col-lg-6">
-        <p>E-checkin is an electronic web application, that allows individuals of particular institutions/organizations to check-in via an electronic system instead of the traditional paper sign-in. On click of check-in button it logs the date and time the user clocked in.</p>
+        <div class="pcheck">
+        <p class="p2">E-checkin is an electronic web application, that allows individuals of particular institutions/organizations to check-in via an electronic system instead of the traditional paper sign-in. On click of check-in button it logs the date and time the user clocked in.</p>
       <a href="https://e-checkin.herokuapp.com" target="blank"> <button class="btn btn-default">VIEW</button></a></div>
       </div>
 
-        <div class="row transp">
+      <div class="trans col-lg-4">
           <h2 class="txt4"><strong>TRANSPARENCY</strong></h2>
-        <div class="trans col-lg-6"></div>
-        <div class="ptrans col-lg-6">
-        <p>Transparency is a simple web application that encourages transparency and improves record-keeping in service-based businesses.</p>
+        <div class="ptrans">
+        <p class="p3">Transparency is a simple web application that encourages transparency and improves record-keeping in service-based businesses.</p>
       <a href="https://transparency.herokuapp.com/" target="blank"> <button class="btn btn-default">VIEW</button></a></div>
-        </div>
-
       </div>
     </div>
-    <div class="row">
-      <div class="interests col-lg-6" id="interest">
+  </div>
+      <div class="interests" id="interest">
         <h2 class="txt5"><strong>INTRESTS</strong></h2>
-        <p class="txt7">My interests are;</p>
+        <p class="txt6">I am passionate about machine control. The career path I chose is Aerospace/Mechanical Engineering which became focused in Industrial Internet of Things. I joined <a href="http://moringaschool.com/">Moringa school</a> (a world-class software developer accelerator based in Nairobi, Kenya) to solely learn how to develop systems that can be used to monitor, control, and visualize every aspect of operations for industrial companies.</p>
+        <p class="txt6">My interests other than Engineering are;</p>
         <ul class="list">
-          <li> <strong>Mentorship</strong> ; <br> I enjoy sharing knowlege by mentoring others and being mentored.</li>
-          <li> <strong>Cooking</strong>; <br> I love experimenting with food and coming up with new recipes.</li>
-          <li> <strong>Exploring</strong>; <br> I am passionate about exploring new cultures.</li>
-          <li> <strong>Innovation</strong>; <br> I am captivated by innovative products and I am always thinking outside the norm.</li>
-        </ul>
+          <div class="row">
+            <li class="col-lg-3"> <strong>Mentorship</strong>; I enjoy sharing knowlege by mentoring others and being mentored.</li>
+            <li class="col-lg-3"> <strong>Cooking</strong>; I love experimenting with food and coming up with new recipes.</li>
+            <li class="col-lg-3"> <strong>Exploring</strong>; I am passionate about exploring new cultures.</li>
+            <li class="col-lg-3"> <strong>Innovation</strong>; I am captivated by innovative products and I am always thinking outside the norm.</li>
+          </div>
 
+        </ul>
       </div>
-    <form class="form-horizontal col-lg-6">
-      <h2 class="txt6"><strong>CONTACT</strong></h2>
+
+      <div class="contacts" id="contact">
+      <h2 class="txt7"><strong>CONTACT</strong></h2>
+      <form method="POST" action="http://formspree.io/vivian.opondoh@gmail.com">
+    <label for="email">Email:</label><input class="form-control" type="email" name="email" placeholder="Your email"> <br>
+    <label for="msg">Message:</label><textarea class="form-control" name="message" placeholder="Your message"></textarea> <br>
+    <button class="btn" type="submit">Send</button>
+  </form>
+</div>
+
+      <!-- <h2 class="txt6"><strong>CONTACT</strong></h2>
         <div class="contacts" id="contact">
             <div class="form-group">
                 <label for="usr">Name:</label>
@@ -122,8 +130,8 @@
             <br>
             <button type="submit" class="btn submit btn-default">SUBMIT</button>
         </div>
-      </form>
-</div>
+      </form> -->
+
 <a href="https://github.com/Viv-Iam" target="blank"><i class="fa fa-github fa-4x" aria-hidden="true" style="color:white;"></i></a>
 <a href="https://www.linkedin.com/in/vivian-opondoh-b07593141/" target="blank"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true" style="color:white;"></i></a>
 

@@ -37,7 +37,7 @@ body {
 }
 
 .maintxt {
-  color:#01C5FF;
+  color:white;
   text-align: center;
 }
 
@@ -49,16 +49,7 @@ body {
     font-family: Jazz LET, fantasy;
 }
 
-.portfolio {
-
-    /*height: 700px;
-
-    background-color: #C70039;
-    padding-top: 40px;
-    border-right: 5px, solid;*/
-
-}
-.tech2o {
+/*.tech2o {
   background-image:url("../img/web1.jpg");
   width: 600px;
   height: 400px;
@@ -108,7 +99,7 @@ body {
   margin-top: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-}
+}*/
 
 .ptech,
 .pcheck,
@@ -117,7 +108,7 @@ body {
   border-color:transparent;
   font-size:25px;
 }
-.ptech {
+/*.ptech {
   margin-top: 30px;
   text-align: center;
 }
@@ -128,12 +119,14 @@ body {
 .ptrans {
   margin-top: 30px;
   text-align: center;
-}
-.techp {
-  background-color:#00406E;
+}*/
+.tech2o,
+.echeckin,
+.trans {
+  background-color:white;
 }
 .transp {
-  background-color:#00406E;
+  background-color:white;
 }
 .techp,
 .checkp,
@@ -148,15 +141,9 @@ body {
     color: white;
     font-size: 20px;
     height: 100%;
-    width: 70%;
-    color:#01C5FF;
     font-family: Jazz LET, fantasy;
     margin-left: 20px;
-}
-form {
-  border-left: thin solid #01C5FF;
-  margin-top: 60px;
-  margin-bottom: 80px;
+    /*border-left: thin solid white;*/
 }
 .m1,
 .m3 {
@@ -164,38 +151,48 @@ form {
 }
 
 .mb {
-  border-right: thin solid #01C5FF;
+  border-right: thin solid white;
 }
 .txt1 {
+  color: white;
+  text-align: center;
+}
+.portfolio {
+  height: 700px;
+  background-color:white;
+  padding-top: 350px;
+}
+
+.txt2,
+.txt3,
+.txt4 {
+  color: #00243E;
   text-align: center;
 }
 
-.txt2 {
-  margin-left: 850px;
-}
-.txt3 {
-  margin-left: 250px;
-}
-.txt4 {
-  margin-left: 850px;
-}
-
 p {
-    color:#01C5FF;
     font-family: Jazz LET, fantasy;
     font-size: 24px;
 }
+.p1 {
+  color: #00243E;
+}
+.p2 {
+  color: #00243E;
+}
+.p3 {
+  color: #00243E;
+}
 h2 {
-  color:#01C5FF;
   font-family: Jazz LET, fantasy;
 }
 .btn {
-  background-color: #01C5FF;
+  background-color: #00243E;
   color: white;
 }
 .m3txt,
 .m1txt {
-color: #01C5FF;
+color: white;
 text-align: center;
 }
 .m1txt {
@@ -216,17 +213,25 @@ text-align: center;
 }
 
 .txt5 {
+  color:white;
   margin-top: 80px;
   margin-left: 200px;
+  text-align: center;
 }
 .list {
-  color: #01C5FF;
+  color: white;
   font-size: 20px;
   font-family: Jazz LET, fantasy;
   margin-left: 30px;
+  padding-top:200px;
+}
+.txt6 {
+  margin-left: 30px;
+  color: white;
 }
 .txt7 {
-  margin-left: 30px;
+  color:white;
+  /*margin-top: 80px;*/
 }
 .fa-github {
   margin-left: 600px;
