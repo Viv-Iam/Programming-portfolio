@@ -16,7 +16,7 @@
 
 <body>
     <div class="home">
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -29,7 +29,15 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="#">HOME</a></li>
-                        <li><a href="#projects">PORTFOLIO</a></li>
+                        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PORTFOLIO
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#mobile">MOBILE APPS</a></li>
+          <li><a href="#web">WEB APPS</a></li>
+        </ul>
+      </li>
+                        <!-- <li><a href="#projects">PORTFOLIO</a></li> -->
                         <li><a href="#interest">INTERESTS</a></li>
                         <li><a href="#contact">CONTACT</a></li>
                     </ul>
@@ -49,16 +57,18 @@
 
 
     <div id="projects">
-    <div class="mobile row">
+    <div class="mobile row" id="mobile">
       <h2 class="txt1"><strong>PORTFOLIO</strong></h2>
       <div class="col-lg-6 mb">
+        <h2 class="txt8"><strong> MOBILE-CHEKCKIN</strong></h2>
         <!-- <div class="m1"> <img src="img/m.jpg" alt="MOBILECHECK-IN"> </div> -->
         <div class="m1txt">
-          <p>MobileCheck-in is an Android application that allows users to clock in at the click of a button. It automatically logs the date and time the user checks-in. </p><a href="https://appetize.io/app/vw33m82nwbzbq4d528nh62vy50?device=nexus5&scale=75&orientation=portrait&osVersion=7.0" target="blank"> <button class="btn btn-default">VIEW</button></a>
+          <p>MobileCheck-in is an Android application that allows users to remotely clock in at the click of a button. It automatically logs the date and time the user checks-in. </p><a href="https://appetize.io/app/vw33m82nwbzbq4d528nh62vy50?device=nexus5&scale=75&orientation=portrait&osVersion=7.0" target="blank"> <button class="btn btn-default">VIEW</button></a>
         </div>
       </div>
 
         <div class="col-lg-6">
+          <h2 class="txt9"><strong>TATU SAFETY</strong></h2>
           <!-- <div class="m3"> <img src="img/t.jpg" alt="TATU SAFETY"> </div> -->
           <div class="m3txt">
             <p>Tatu Safety is an Android application that aims to ease travel via Public Transport. It also avails a platform for reporting malpractices.</p><a href="https://appetize.io/app/ekytpe6tqgn9nt69a8f93gh3ur?device=nexus5&scale=75&orientation=portrait&osVersion=7.0" target="blank"> <button class="btn btn-default">VIEW</button></a>
@@ -66,14 +76,14 @@
         </div>
 
     </div>
-  <div class="portfolio">
+  <div class="portfolio" id="web">
     <div class="row">
       <div class="tech2o col-lg-4">
       <h2 class="txt2"><strong>TECH₂0</strong></h2> <br>
       <!-- <img class="imgweb"src="img/Tech.png" alt="Transparency Image"> -->
       <br>
         <div class="ptech">
-          <p class="p1">TecH₂O is a web app that utilizes satellite and crowd-sourced data to avail realtime information on fluctuating water levels across the globe. The app was awarded <a href="https://2017.spaceappschallenge.org/challenges/planetary-blues/wheres-water/teams/tech20-1/project">Local Peoples' Choice Award </a>for the NASA SpaceApps Challenge 2017.</p>
+          <p class="p1">TecH₂O is a web app that utilizes satellite and crowd-sourced data to avail realtime information on fluctuating water levels across the globe. This app was awarded <a href="https://2017.spaceappschallenge.org/challenges/planetary-blues/wheres-water/teams/tech20-1/project">Local Peoples' Choice Award </a>for the NASA SpaceApps Challenge 2017.</p>
         <a href="https://techh20o.github.io/techh20.io/" target="blank"> <button class="btn btn-default">VIEW</button></a></div>
         </div>
 

@@ -8,7 +8,7 @@ body {
     background-color: #00243E;
 
 }
-.navbar-nav {
+.navbar {
   color: white;
 }
 
@@ -183,7 +183,9 @@ text-align: center;
   margin-bottom: 100px;
 
 }
-.txt6 {
+.txt6,
+.txt8,
+.txt9 {
   color:#00243E;
   text-align: center;
 }
