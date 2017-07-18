@@ -93,12 +93,12 @@ body {
 .contacts {
     color: white;
     font-size: 20px;
-    height: 100%;
     font-family: 'Shadows Into Light', cursive;
     margin-left: 20px;
+    height: 500px;
     padding-left:450px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     /*border-left: thin solid white;*/
 }
 .m1,
