@@ -51,59 +51,6 @@ body {
     height: 600px;
     font-family: 'Shadows Into Light', cursive;
 }
-
-/*.tech2o {
-  background-image:url("../img/web1.jpg");
-  width: 600px;
-  height: 400px;
-  background-repeat: no-repeat;
-  float: left;
-  margin-top:0px;
-  border-style: solid;
-  border-color: transparent;
-  padding-left: 50px;
-  padding-right: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 30px #000000;
-  margin-left: 60px;
-}
-.echeckin {
-  background-image:url("../img/web2.jpg");
-  width: 600px;
-  height: 400px;
-  margin-top:0px;
-  background-repeat: no-repeat;
-  float: right;
-  border-style: solid;
-  border-color: transparent;
-  padding-left: 50px;
-  padding-right: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 30px #000000;
-  margin-right: 60px;
-}
-.trans {
-  background-image:url("../img/web3.jpg");
-  width: 600px;
-  height: 400px;
-  margin-top:0px;
-  background-repeat: no-repeat;
-  float: left;
-  border-style: solid;
-  border-color: transparent;
-  padding-left: 50px;
-  padding-right: 40px;
-  border-radius: 10px;
-  box-shadow: 0 0 30px #000000;
-  margin-left: 60px;
-}
-.mobile {
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}*/
-
 .ptech,
 .pcheck,
 .ptrans {
@@ -111,26 +58,13 @@ body {
   border-color:transparent;
   font-size:25px;
 }
-/*.ptech {
-  margin-top: 30px;
-  text-align: center;
-}
-.pcheck {
-  margin-top: 30px;
-  text-align: center;
-}
-.ptrans {
-  margin-top: 30px;
-  text-align: center;
-}*/
+
 .tech2o,
 .echeckin,
 .trans {
   background-color:#00243E;
 }
-/*.transp {
-  background-color:white;
-}*/
+
 .mobile {
   background-color:white;
   height: 500px;
@@ -155,13 +89,6 @@ body {
   padding-bottom:100px;
   height: 600px;
 }
-/*.contacts,
-.interests,
-.mobile
- {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}*/
 
 .contacts {
     color: white;
