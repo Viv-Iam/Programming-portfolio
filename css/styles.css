@@ -6,6 +6,10 @@
 body {
     overflow-x: hidden;
     background-color: #00243E;
+
+}
+.navbar-nav {
+  color: white;
 }
 
 .navbar {
@@ -14,8 +18,7 @@ body {
     padding-bottom: 10px;
     border-radius: 0px;
     margin-bottom: 0px;
-
-    font-family: Jazz LET, fantasy;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 #myNavbar {
@@ -42,11 +45,11 @@ body {
 }
 
 .about {
-    margin-top:70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
-    height: 700px;
-    background-image:url("../img/image.jpg");
-    font-family: Jazz LET, fantasy;
+    height: 500px;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 /*.tech2o {
@@ -123,26 +126,29 @@ body {
 .tech2o,
 .echeckin,
 .trans {
+  background-color:#00243E;
+}
+/*.transp {
+  background-color:white;
+}*/
+.mobile {
   background-color:white;
 }
-.transp {
-  background-color:white;
-}
-.techp,
-.checkp,
-.transp,
+.contacts,
+.interests,
 .mobile
  {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .contacts {
     color: white;
     font-size: 20px;
     height: 100%;
-    font-family: Jazz LET, fantasy;
+    font-family: 'Shadows Into Light', cursive;
     margin-left: 20px;
+    padding-left:450px;
     /*border-left: thin solid white;*/
 }
 .m1,
@@ -151,44 +157,49 @@ body {
 }
 
 .mb {
-  border-right: thin solid white;
+  border-right: thin solid #00243E;
 }
 .txt1 {
-  color: white;
+  color: #00243E;
   text-align: center;
 }
 .portfolio {
-  height: 700px;
-  background-color:white;
-  padding-top: 350px;
+  height: 500px;
+  background-color: #00243E;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .txt2,
 .txt3,
 .txt4 {
-  color: #00243E;
+  color: white;
   text-align: center;
 }
 
 p {
-    font-family: Jazz LET, fantasy;
+    font-family: 'Handlee', cursive;
     font-size: 24px;
 }
 .p1 {
-  color: #00243E;
+  color: white;
 }
 .p2 {
-  color: #00243E;
+  color: white;
 }
 .p3 {
-  color: #00243E;
+  color: white;
 }
 h2 {
-  font-family: Jazz LET, fantasy;
+  font-family: 'Handlee', cursive;
 }
 .btn {
   background-color: #00243E;
+  border-color:white;
   color: white;
+  font-family: 'Shadows Into Light', cursive;
 }
 .m3txt,
 .m1txt {
@@ -202,6 +213,7 @@ text-align: center;
   height: 150px;
   margin-left: 100px;
   margin-top: 20px;
+  color:#00243E;
 }
 .m3txt {
   border-style: solid;
@@ -210,22 +222,27 @@ text-align: center;
   height: 150px;
   margin-left:110px;
   margin-top: 20px;
+  color:#00243E;
+}
+.interests {
+  background:white;
+  padding-left:20px;
+  padding-right: 20px;
 }
 
 .txt5 {
-  color:white;
+  color:#00243E;
   margin-top: 80px;
   text-align: center;
 }
 .list {
-  color: white;
+  color:#00243E;
   font-size: 20px;
-  font-family: Jazz LET, fantasy;
+  font-family: 'Handlee', cursive;
   margin-left: 30px;
-  padding-top:200px;
 }
 .txt6 {
-  color: white;
+  color:#00243E;
 }
 .txt7 {
   color:white;
@@ -238,4 +255,17 @@ text-align: center;
 .fa-linkedin-square {
   margin-left: 50px;
   margin-bottom: 20px;
+}
+.form-control {
+  width: 600px;
+}
+.img {
+  width: 200px;
+  height:200px;
+  border-radius:100%;
+  margin-bottom:50px;
+}
+.imgweb {
+  width: 400px;
+  height: 400px;
 }
