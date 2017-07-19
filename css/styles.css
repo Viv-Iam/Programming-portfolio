@@ -115,6 +115,10 @@ body {
   color: #00243E;
   text-align: center;
 }
+.form-control,
+label {
+  font-size:20px;
+}
 
 
 .txt2,
