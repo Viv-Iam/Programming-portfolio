@@ -45,12 +45,11 @@ body {
 }
 
 .about {
-    padding-top: 180px;
-    padding-bottom: 120px;
+    padding-top: 300px;
     padding-right:20px;
     padding-left:20px;
     width: 100%;
-    height: 600px;
+    height: 700px;
     font-family: 'Shadows Into Light', cursive;
 }
 .ptech,
@@ -61,47 +60,34 @@ body {
   font-size:25px;
 }
 
-.tech2o,
-.echeckin,
-.trans {
-  background-color:#00243E;
-}
+
+
 
 .mobile {
+  /*padding-top:100px;
+  padding-bottom:100px;*/
   background-color:white;
-  height: 500px;
-  padding-top:100px;
-  padding-bottom:100px;
+  height: 700px;
+  padding-top:150px;
+  color:#00243E;
 }
 
-.portfolio {
-  height: 600px;
-  background-color: #00243E;
-  padding-left:20px;
-  padding-right:20px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+.m1txt {
+  border-style: solid;
+  border-color: transparent;
+  width: 420px;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 20px;
 }
+.m3txt {
+  border-style: solid;
+  border-color: transparent;
+  width: 420px;
+  height: 150px;
+  margin-left:110px;
+  margin-top: 20px;
 
-.interests {
-  background:white;
-  padding-left:20px;
-  padding-right: 20px;
-  padding-top:100px;
-  padding-bottom:100px;
-  height: 600px;
-}
-
-.contacts {
-    color: white;
-    font-size: 20px;
-    font-family: 'Shadows Into Light', cursive;
-    margin-left: 20px;
-    height: 500px;
-    padding-left:450px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    /*border-left: thin solid white;*/
 }
 .m1,
 .m3 {
@@ -109,8 +95,49 @@ body {
 }
 
 .mb {
-  border-right: thin solid #00243E;
 }
+.mt {
+border-left: thin solid #00243E;
+}
+
+.portfolio {
+  padding-left:20px;
+  padding-right:20px;
+  /*padding-top: 100px;*/
+  /*padding-bottom: 100px;*/
+  background-color: #00243E;
+  height: 700px;
+  padding-top:150px;
+}
+
+.trans {
+
+}
+
+.tech2o {
+
+}
+
+
+.interests {
+  background:white;
+  padding-left:20px;
+  padding-right: 20px;
+  padding-top:150px;
+  height: 700px;
+}
+
+.contacts {
+    color: white;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    margin-left: 20px;
+    height: 600px;
+    padding-left:450px;
+    padding-top: 150px;
+    /*border-left: thin solid white;*/
+}
+
 .txt1 {
   color: #00243E;
   text-align: center;
@@ -152,27 +179,10 @@ h2 {
 }
 .m3txt,
 .m1txt {
-color: white;
+color: #00243E;
 text-align: center;
 }
-.m1txt {
-  border-style: solid;
-  border-color: transparent;
-  width: 420px;
-  height: 150px;
-  margin-left: 100px;
-  margin-top: 20px;
-  color:#00243E;
-}
-.m3txt {
-  border-style: solid;
-  border-color: transparent;
-  width: 420px;
-  height: 150px;
-  margin-left:110px;
-  margin-top: 20px;
-  color:#00243E;
-}
+
 
 
 .txt5 {
@@ -217,4 +227,10 @@ text-align: center;
 .imgweb {
   width: 400px;
   height: 400px;
+}
+.fa-qrcode,
+.fa-bus,
+.fa-tint,
+.fa-money{
+  margin-left:50%;
 }
